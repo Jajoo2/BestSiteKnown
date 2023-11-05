@@ -99,7 +99,10 @@ div {
   }
 
    button:active {
-    position: relative;
+    position: relative;  
+    border-radius: 2.5px;
+    border: 2px double #000000;
+
     top: 5px;
     color: #000000;
     background-color: #838383;
