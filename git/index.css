@@ -1,0 +1,42 @@
+:root, html, body { height: 100%; }
+body {
+    background: rgb(131,58,180);
+    background: linear-gradient(52deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition-duration: 0.2s;
+
+
+    font-family: Arial;
+    color: #000000;
+}
+
+
+button {
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    transform: scale(2);
+    font-size: 10px;
+    box-shadow: 2px 2px  #8f8f8f;
+    background-color: #ffffff;
+    color: #000000;
+    filter: blur(0.1rem);
+    transition-duration: 0.2s;
+}
+
+button:active {
+    box-shadow: inset 2px 2px 0.2px 0.2px #4f4f4f;
+    top: 4px;
+    left: 4px;
+    cursor: url("cur/aero_pen_xl.cur"),auto;
+    background-color: #dfdfdf;
+    
+    
+}
+
+button:hover {
+    cursor: pointer;
+    filter: blur(0rem);
+}
+
